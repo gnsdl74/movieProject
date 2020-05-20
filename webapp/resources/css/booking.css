@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+
+.frame-main-body {
+	bottom: 0px;
+	border-top: 1px solid gray;
+}
+
+.movie-frame-title {
+	width: 659px;
+	border-bottom: 1px solid gray;
+}
+
+.schedule-frame-title {
+	width: 405px;
+	border-bottom: 1px solid gray;
+}
+
+.movie-frame {
+	height: 460px;
+}
+
+.movie-area{	
+	width: 250px;
+	float:left;
+}
+
+.movie-area{
+	margin-top: 40px;
+	overflow-y: scroll;
+	width:300px; 
+	height:370px;
+	margin-left: 30px; 
+	border: 1px solid gray;
+}
+
+
+#movie-btn{
+	width: 265px;
+	height: 35px;
+	margin-bottom: 1px;
+}
+.movie-poster{
+	width: 250px;
+	height: auto;
+	float:right;
+}
+
+.poster{
+	margin-top:40px;
+}
+
+.poster{	
+	width: 130px;
+	height: 150px;
+	border: 1px solid gray;
+}
+
+.schedule-frame {
+	border-left: 1px solid gray;
+	overflow-y: scroll;
+	height: 460px;
+}
+
+
+#schedule-btn {
+	width: 410px;
+	height: 45px;
+	margin-bottom: 1px;
+}
+
+.date-text{	
+	width : 39px;
+	height: 18px;	
+
+}
+
+list{
+	list-style-type: none;
+}
+
+.date-btn-area{
+	border: 1px solid white;
+	margin-bottom: 1px;
+}
+
+.date-prev-btn{
+	border: 1px solid white;
+	background-color: rgba(0,0,0,0);
+
+}
+
+.date-next-btn{
+	border: 1px solid white;
+	background-color: rgba(0,0,0,0);		
+}
+#date-btn{
+	background-color: rgba(0,0,0,0);
+	color:black;
+	padding: 3px;
+}
+
+#date-btn-sun{
+	background-color: rgba(0,0,0,0);
+	color:red;
+	padding: 3px;
+}
+
+#date-btn-sat{
+	background-color: rgba(0,0,0,0);
+	color:blue;
+	padding: 3px;
+}
+
+.ui-datepicker-trigger{
+	margin-left: 8px;
+}
+
+#movie-btn-* span {
+	text-align: left;
+}
+
+
+
+
+
